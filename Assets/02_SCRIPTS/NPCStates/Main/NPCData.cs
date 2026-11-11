@@ -34,7 +34,6 @@ public class NPCData : FSMDataFunctions, IInteractable
     public float MoveSpeed = 6;
     public float TurnStep = 200;
     public Vector3 YOffset = new(0, 0, 0);
-    //public int MaxFrustration = 10;
 
     [Header("Interest Points")]
     public List<Transform> InterestPoints = new();
@@ -43,17 +42,12 @@ public class NPCData : FSMDataFunctions, IInteractable
     public Transform WorldCenter;
     public Vector3 StartingPosition;
     public Vector3 TargetPosition;
-    ////public Vector3 CurrentDirection;
-    //public float FrustrationMeter;
 
     [Header("Graphics")]
     public Image StatusImage;
     public TMP_Text Nametag;
     public Outline Outline;
 
-    //[Header("Mood")]
-    //public Transform MoodSpawner;
-    //public GameObject HeartPrefab;
 
     private void Start()
     {
@@ -65,19 +59,7 @@ public class NPCData : FSMDataFunctions, IInteractable
         Nametag.text = gameObject.name;
         Outline = transform.GetComponent<Outline>();
         Outline.enabled = false;
-
-        // FrustrationMeter = 0f;
     }
-
-    //public void InstantiateMood(GameObject moodPrefab)
-    //{
-    //    float offset = 0.15f;
-    //    float randomOffsetX = MoodSpawner.position.x + Random.Range(-offset, offset);
-    //    float randomOffsetZ = MoodSpawner.position.z + Random.Range(-offset, offset);
-    //    Vector3 spawnPos = new(randomOffsetX, MoodSpawner.position.y, randomOffsetZ);
-    //    GameObject moodDisplay = Instantiate(moodPrefab, spawnPos, Quaternion.identity);
-    //    Destroy(moodDisplay, 3);
-    //}
 
     public Vector3 GenerateRandomPosition()
     {

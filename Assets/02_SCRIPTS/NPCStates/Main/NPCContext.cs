@@ -79,47 +79,6 @@ public class NPCContext
     }
     #endregion
 
-    #region Frustration
-    //public bool CheckFrustration()
-    //{
-    //    if (Data.FrustrationMeter >= Data.MaxFrustration)
-    //    {
-    //        Data.IsFrustrated = true;
-    //    }
-    //    else
-    //    {
-    //        Data.IsFrustrated = false;
-
-    //        if (Data.FrustrationMeter <= 0)
-    //        {
-    //            Data.IsAvoiding = false;
-    //        }
-
-    //    }
-    //    return Data.IsFrustrated;
-    //}
-    //public void CalculateFrustration()
-    //{
-    //    if (GetDistanceToPlayer() > Data.PlayerMaxDistance)
-    //    {
-    //        if (Data.GoToWaitState)
-    //        {
-    //            if (Data.FrustrationMeter < Data.MaxFrustration)
-    //            {
-    //                Data.FrustrationMeter += Time.deltaTime;
-    //            }
-    //        }
-    //        else if (Data.IsAvoiding)
-    //        {
-    //            if (Data.FrustrationMeter > 0)
-    //            {
-    //                Data.FrustrationMeter -= Time.deltaTime;
-    //            }
-    //        }
-    //    }
-    //}
-    #endregion
-
     public Vector3 SetTargetPosition()
     {
         Target.position = Target.position;
