@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f900a82f0c7d7dc4ba30bb8c9777bf66, type: 3}
+  m_Name: WeirdType
+  m_EditorClassIdentifier: Assembly-CSharp::NPCTypes
+  TropeName: Weird
+  TropeType: 3
+  Trust: 1.5
+  Gossip: 1
+  NameOptions:
+  - Youtube
+  - Mecylinder
+  - Jimothy
+  - Dotcom
+  - Alittlebith
+  WhatsYourName:
+  - QuestionName: NameLove
+    QuestionType: 1
+    AffinityLevel: 1
+    QuestionContent: Your aura is overwhelming!! May I have your name?
+  - QuestionName: NameNeutral
+    QuestionType: 1
+    AffinityLevel: 2
+    QuestionContent: Waaaait a minute... Who ARE you???
+  - QuestionName: NameDislike
+    QuestionType: 1
+    AffinityLevel: 3
+    QuestionContent: A disturbance in the Force... Its you! You are...?
+  AreYouHim:
+  - QuestionName: 
+    QuestionType: 1
+    AffinityLevel: 1
+    QuestionContent: The hero who was promised!! Are you the one and only
+  - QuestionName: 
+    QuestionType: 1
+    AffinityLevel: 2
+    QuestionContent: I must've forgotten your name, was it
+  - QuestionName: 
+    QuestionType: 1
+    AffinityLevel: 3
+    QuestionContent: A challenger approaches! Could it be,
+  DoIKnowYou:
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 1
+    QuestionContent: Aye man you look familiar! What's good?
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 2
+    QuestionContent: Yo.
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 3
+    QuestionContent: Hey watch where you're going, dude.
+  IKnowYou:
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 1
+    QuestionContent: You play ball, dude?
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 2
+    QuestionContent: Yo I almost trampled on you, haha
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 3
+    QuestionContent: Bruh why is it so crowded in here...

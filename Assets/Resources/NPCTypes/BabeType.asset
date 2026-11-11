@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f900a82f0c7d7dc4ba30bb8c9777bf66, type: 3}
+  m_Name: BabeType
+  m_EditorClassIdentifier: Assembly-CSharp::NPCTypes
+  TropeName: Babe
+  TropeType: 2
+  Trust: 1
+  Gossip: 3
+  NameOptions:
+  - Mckaeyleigh
+  - Blabbara
+  - Pleather
+  - Heyleigh
+  WhatsYourName:
+  - QuestionName: NameDefault
+    QuestionType: 1
+    AffinityLevel: 0
+    QuestionContent: Hey, what's your name?
+  - QuestionName: NameLike
+    QuestionType: 1
+    AffinityLevel: 1
+    QuestionContent: Omg hiiii what's your name?
+  - QuestionName: NameNeutral
+    QuestionType: 1
+    AffinityLevel: 2
+    QuestionContent: Ooo who are you?
+  - QuestionName: NameDislike
+    QuestionType: 1
+    AffinityLevel: 3
+    QuestionContent: Ew. What are you?
+  AreYouHim:
+  - QuestionName: CheckNameDefault
+    QuestionType: 2
+    AffinityLevel: 0
+    QuestionContent: Hold on, is your name
+  - QuestionName: 
+    QuestionType: 2
+    AffinityLevel: 1
+    QuestionContent: O. M. G! Are you...
+  - QuestionName: 
+    QuestionType: 1
+    AffinityLevel: 2
+    QuestionContent: Wait aren't you
+  - QuestionName: 
+    QuestionType: 1
+    AffinityLevel: 3
+    QuestionContent: Ugh, don't tell me you're
+  DoIKnowYou:
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 1
+    QuestionContent: Woooow have we met?
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 2
+    QuestionContent: Um, like, hello?
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 3
+    QuestionContent: Ew. Move outta my way.
+  IKnowYou:
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 1
+    QuestionContent: Hey babes ;)
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 2
+    QuestionContent: I'm like. Soooo checked out right now?
+  - QuestionName: 
+    QuestionType: 3
+    AffinityLevel: 3
+    QuestionContent: Ugh, you again.
